@@ -11,5 +11,8 @@ async def main():
     dp = Dispatcher()
 
     dp.include_router
+    # menu
+    await dp.start_pooling(bot)
 
+asyncio.run(main)
     
